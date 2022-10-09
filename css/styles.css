@@ -1,45 +1,120 @@
 
 body{
+    background-color: #F5F5F5;
+    color: #212121;
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    color: #212121;
+    
 }
+ ul {
+    list-style: none;
+    underline: none;
+ }
+ a {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+ }
 
 /*header styles*/
 .header{
     background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
+
+/*logo*/
+.logo-beginning {
+    color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo-ending {
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo-footerending {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.site-nav .link:hover {
+    color: #2196F3;
+}
+
+.header-contacts{
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.header-contacts:hover {
+    color: #2196F3;
+}
+
+
 /* main styles */
 .main{
     background-color: #2F303A;
+  
+}
+.main-header{
     color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
 }
 /*button*/
-.button{
+.main-button{
     background-color: #2196F3;
     color:#FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
 }
 /*specifics*/
-.specifics{
-    background-color: #F5F5F5;
+.specifics-header{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
 }
 /*specifics-details*/
 .details{
     color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 /*services*/
-.services{
-    background-color: #F5F5F5;
+.services-header .team-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
 }
 
 /*team*/
 .team{
     background-color: #F5F4FA;
 }
+.teammate{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+    
 /*team-profesions*/
 .profession{
     color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 
@@ -48,3 +123,17 @@ body{
     background-color: #2F303A;
     color: #FFFFFF;
     }
+
+.adress-link{
+            color: #FFFFFF;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+}
+
+.contacts-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
