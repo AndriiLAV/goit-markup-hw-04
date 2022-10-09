@@ -1,0 +1,50 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #212121;
+}
+
+/*header styles*/
+.header{
+    background-color: #FFFFFF;
+}
+/* main styles */
+.main{
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+/*button*/
+.button{
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
+/*specifics*/
+.specifics{
+    background-color: #F5F5F5;
+}
+/*specifics-details*/
+.details{
+    color: #757575;
+}
+
+/*services*/
+.services{
+    background-color: #F5F5F5;
+}
+
+/*team*/
+.team{
+    background-color: #F5F4FA;
+}
+/*team-profesions*/
+.profession{
+    color: #757575;
+}
+
+
+/* footer*/
+.footer{
+    background-color: #2F303A;
+    color: #FFFFFF;
+    }
