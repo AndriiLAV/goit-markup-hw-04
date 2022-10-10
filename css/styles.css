@@ -3,17 +3,19 @@ body{
     background-color: #F5F5F5;
     color: #212121;
     font-family: "Roboto", sans-serif;
-    font-style: normal;
-    
-}
+    font-style: normal; }
+
  ul {
-    list-style: none;
-    underline: none;
- }
+    list-style: none;}
+
  a {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
- }
+    font-style: normal; }
+
+.link {
+    text-decoration: none;}
+.link:hover{
+    color: #2196F3;}
 
 /*header styles*/
 .header{
@@ -41,10 +43,6 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-}
-
-.site-nav .link:hover {
-    color: #2196F3;
 }
 
 .header-contacts{
@@ -166,5 +164,10 @@ body{
     font-size: 16px;
     line-height: 30px;
 }
+
+.projects-veb,
+.projects-aplications,
+.projects-desine,
+.projects-marketing
 
     
