@@ -105,13 +105,17 @@ body{
 
 /*team*/
 .team{
-    background-color: #F5F4FA;
-}
+    background-color: #F5F4FA;}
+
+.team-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(36/42)}
+
 .teammate{
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(16/19);
-}
+    line-height: calc(16/19);}
 
     
 /*team-profesions*/
