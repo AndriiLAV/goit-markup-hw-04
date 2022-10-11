@@ -20,7 +20,8 @@ body{
 
 .link {
     text-decoration: none;}
-.link:hover{
+.link:hover,
+.link:focus{
     color: #2196F3;}
 
 /*header styles*/
@@ -53,11 +54,6 @@ body{
     font-size: 14px;
     line-height: calc(14/16);
 }
-.header-contacts:hover,
-.header-contacts:focus{
-    color: #2196F3;
-}
-
 
 /* main styles */
 .main{
@@ -146,10 +142,7 @@ body{
     line-height: calc(14/24);
     color: rgba(255, 255, 255, 0.6);
 }
-.contacts-link:hover,
-.contacts-link:focus{
-    color: #2196F3
-}
+
 /*portfolio*/
 .portfolio-button{
     background-color: #F5F4FA;
@@ -159,7 +152,8 @@ body{
     font-size: 16px;
     line-height: calc(16/26);
 }
-.portfolio-button:hover {
+.portfolio-button:hover,
+.portfolio-button:focus {
     background-color: #2196F3;
     color: #FFFFFF;
 }
@@ -174,10 +168,10 @@ body{
     font-size: 16px;
     line-height: calc(16/30);
 }
-
-.projects-veb,
+/* .projects-veb,
 .projects-aplications,
 .projects-desine,
-.projects-marketing
+.projects-marketing */
+
 
     
