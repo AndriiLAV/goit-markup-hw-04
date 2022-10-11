@@ -26,8 +26,8 @@ body{
 /*header styles*/
 .header{
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: calc(12/16);
 }
 
 /*logo*/
@@ -35,7 +35,7 @@ body{
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;}
+    line-height: calc(26/31);}
 
 .logo-beginning {
     color: #2196F3;}
@@ -45,16 +45,13 @@ body{
 
 .logo-footerending {
     color: #FFFFFF;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
 }
 
 .header-contacts{
     color: #757575;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(14/16);
 }
 .header-contacts:hover,
 .header-contacts:focus{
@@ -71,7 +68,7 @@ body{
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: calc(44/60);
     text-transform: uppercase;
 }
 /*button*/
@@ -80,14 +77,14 @@ body{
     color:#FFFFFF;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: calc(16/30);
     cursor: pointer;
 }
 /*specifics*/
 .specifics-header{
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(14/16);
     text-transform: uppercase;
 }
 /*specifics-details*/
@@ -95,14 +92,14 @@ body{
     color: #757575;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(14/24);
 }
 
 /*services*/
 .services-header .team-header{
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: calc(36/42);
 }
 
 /*team*/
@@ -112,7 +109,7 @@ body{
 .teammate{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: calc(16/19);
 }
 
     
@@ -121,7 +118,7 @@ body{
     color: #757575;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: calc(16/19);
 }
 
 
@@ -135,13 +132,13 @@ body{
             color: #FFFFFF;
             font-weight: 400;
             font-size: 14px;
-            line-height: 24px;
+            line-height: calc(14/24);
 }
 
 .contacts-link{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(14/24);
     color: rgba(255, 255, 255, 0.6);
 }
 .contacts-link:hover,
@@ -154,7 +151,7 @@ body{
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: calc(16/26);
 }
 .portfolio-button:hover {
     background-color: #2196F3;
@@ -163,13 +160,13 @@ body{
 .portfolio-image{
     font-weight: 700;
         font-size: 18px;
-        line-height: 36px;
+        line-height: calc(18/36);
 }
 .portfolio-project{
     color: #757575;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: calc(16/30);
 }
 
 .projects-veb,
