@@ -1,6 +1,6 @@
 
 body{
-    background-color: ##FFFFFF;
+    background-color: #FFFFFF;
     color: #212121;
     font-family: "Roboto", sans-serif; }
 
@@ -78,6 +78,11 @@ body{
     cursor: pointer;
 }
 /*specifics*/
+.specifics,
+.services,
+.portfolio{
+    background-color: #F5F5F5;
+}
 .specifics-header{
     font-weight: 700;
     font-size: 14px;
@@ -159,8 +164,8 @@ body{
 }
 .portfolio-image{
     font-weight: 700;
-        font-size: 18px;
-        line-height: calc(18/36);
+    font-size: 18px;
+    line-height: calc(18/36);
 }
 .portfolio-project{
     color: #757575;
