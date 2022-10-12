@@ -32,6 +32,11 @@ body{
 .link:focus{
     color: var(--accent-color);}
 .title{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
 
@@ -47,7 +52,7 @@ body{
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
-    line-height: calc(26/31);}
+    line-height: calc(31/26);}
 
 .logo-beginning {
     color: #2196F3;}
@@ -63,7 +68,7 @@ body{
     color: #757575;
     font-weight: 500;
     font-size: 14px;
-    line-height: calc(14/16);
+    line-height: calc(16/14);
 }
 
 /* main styles */
@@ -75,7 +80,7 @@ body{
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
-    line-height: calc(44/60);
+    line-height: calc(60/44);
     text-transform: uppercase;
 }
 /*button*/
@@ -85,7 +90,7 @@ body{
     font-family: "Roboto";
     font-weight: 700;
     font-size: 16px;
-    line-height: calc(16/30);
+    line-height: calc(30/16);
     cursor: pointer;
 }
 /*specifics*/
@@ -96,7 +101,7 @@ body{
 .specifics-title{
     font-weight: 700;
     font-size: 14px;
-    line-height: calc(14/16);
+    line-height: calc(16/14);
     text-transform: uppercase;
 }
 /*specifics-details*/
@@ -104,14 +109,14 @@ body{
     color: #757575;
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(14/24);
+    line-height: calc(24/14);
 }
 
 /*services*/
 .services-header .team-header{
     font-weight: 700;
     font-size: 36px;
-    line-height: calc(36/42);
+    line-height: calc(42/36);
 }
 
 /*team*/
@@ -121,12 +126,12 @@ body{
 .team-header{
     font-weight: 700;
     font-size: 36px;
-    line-height: calc(36/42)}
+    line-height: calc(42/36)}
 
 .teammate{
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(16/19);}
+    line-height: calc(19/16);}
 
     
 /*team-profesions*/
@@ -134,7 +139,7 @@ body{
     color: #757575;
     font-weight: 400;
     font-size: 16px;
-    line-height: calc(16/19);
+    line-height: calc(19/16);
 }
 
 
@@ -148,13 +153,13 @@ body{
             color: #FFFFFF;
             font-weight: 400;
             font-size: 14px;
-            line-height: calc(14/24);
+            line-height: calc(24/14);
 }
 
 .contacts-link{
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(14/24);
+    line-height: calc(24/14);
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -165,7 +170,7 @@ body{
     font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(16/26);
+    line-height: calc(26/16);
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -175,13 +180,13 @@ body{
 .portfolio-image{
     font-weight: 700;
     font-size: 18px;
-    line-height: calc(18/36);
+    line-height: calc(36/18);
 }
 .portfolio-project{
     color: #757575;
     font-weight: 400;
     font-size: 16px;
-    line-height: calc(16/30);
+    line-height: calc(30/16);
 }
 /* .projects-veb,
 .projects-aplications,
