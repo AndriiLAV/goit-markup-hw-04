@@ -1,16 +1,24 @@
 
+/*колір основного фону           #FFFFFF */
+/*колір другорядного фону        #F5F5F5 */
+/*колір основного тексту         #212121 */
+/*колір другорядного тексту      #757575 */
+/*акцент                         #2196F3 */
+/*інші кольори #F5F4FA; #2F303A; #000000 */
+/* color: rgba(255, 255, 255, 0.6); */
+
+
+:root{
+    --primary-background-color: #FFFFFF;
+    --primary-text-color: #212121;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
 body{
-    background-color: #FFFFFF;
-    color: #212121;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
     font-family: "Roboto", sans-serif; }
 
-    /*колір основного фону           #FFFFFF */
-    /*колір другорядного фону        #F5F5F5 */
-    /*колір основного тексту         #212121 */
-    /*колір другорядного тексту      #757575 */
-    /*акцент                         #2196F3 */
-    /*інші кольори #F5F4FA; #2F303A; #000000 */
-    /* color: rgba(255, 255, 255, 0.6); */
  ul {
     list-style: none;}
 
@@ -22,7 +30,7 @@ body{
     text-decoration: none;}
 .link:hover,
 .link:focus{
-    color: #2196F3;}
+    color: var(--accent-color);}
 
 /*header styles*/
 .header{
@@ -159,7 +167,7 @@ body{
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     color: #FFFFFF;
 }
 .portfolio-image{
