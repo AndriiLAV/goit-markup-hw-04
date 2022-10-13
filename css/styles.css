@@ -29,8 +29,9 @@ body{
 .link {
     text-decoration: none;}
 .link:hover,
-.link:focus{
-    color: var(--accent-color);}
+.link:focus {
+    color: var(--accent-color);
+}
 
 /*logo*/
 .logo{
@@ -39,6 +40,9 @@ body{
     font-size: 26px;
     line-height: calc(26/31);
     letter-spacing: 0.03em;}
+
+/*.logo-link{
+    text-decoration: none;}*/
 
 .logo-beginning {
     color: #2196F3;}
@@ -50,34 +54,43 @@ body{
     color: #FFFFFF;
 }
 /*header styles*/
+
 .title {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
+/*.title:hover,
+.title:focus {
+    color: var(--accent-color);
+}*/
 
 .header-contacts{
     color: #757575;
     font-weight: 500;
     font-size: 14px;
-    line-height: calc(14/16);
+    line-height: calc(16/14);
     letter-spacing: 0.02em;
 }
 
 /* main styles */
 .main{
-    background-color: #2F303A;
-  
+    background-color: #2F303A; 
 }
 .main-title{
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
-    line-height: calc(44/60);
+    line-height: calc(60/44);
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 /*button*/
 .main-button{
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     color:#FFFFFF;
     font-family: "Roboto";
     font-weight: 700;
@@ -85,6 +98,11 @@ body{
     line-height: calc(16/30);
     letter-spacing: 0.06em;
     cursor: pointer;
+}
+.main-button:hover,
+.main-button:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
 }
 /*specifics*/
 
@@ -165,7 +183,9 @@ body{
 
 /*portfolio*/
 .portfolio-button{
+    font-family: "Roboto";
     background-color: #F5F4FA;
+    color: #212121;
     cursor: pointer;
     font-family: "Roboto";
     font-weight: 500;
@@ -188,10 +208,6 @@ body{
     font-size: 16px;
     line-height: calc(16/30);
 }
-/* .projects-veb,
-.projects-aplications,
-.projects-desine,
-.projects-marketing */
 
 
     
