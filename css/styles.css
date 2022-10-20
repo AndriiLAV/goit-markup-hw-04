@@ -94,7 +94,7 @@ body{
 }
 .main-button:hover,
 .main-button:focus {
-    background-color: var(--accent-color);
+    background-color: #188CE8;
     color: #FFFFFF;
 }
 /*specifics*/
