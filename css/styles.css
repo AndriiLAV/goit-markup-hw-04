@@ -132,6 +132,10 @@ body{
     line-height: calc(42/36);
     letter-spacing: 0.03em;}
 
+.team-card{
+    background-color: #FFFFFF;
+}
+
 .teammate{
     font-weight: 500;
     font-size: 16px;
