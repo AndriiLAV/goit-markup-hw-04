@@ -41,7 +41,7 @@ body{
 
 .container {
     display:flex;
-    width: 1200px;
+    width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     margin:0 auto;
@@ -117,7 +117,7 @@ body{
 
 .header-contacts {
     display: flex;
-    margin-left: 344px;
+    margin-left: auto;
 }
 
 .header-contact:not(:first-child) {
@@ -141,13 +141,24 @@ body{
 .main{
     background-color: #2F303A; 
 }
+
+.main-container{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .main-title{
+    width: 696px;
+    height: auto;
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
 }
 /*button*/
 .main-button{
@@ -159,6 +170,8 @@ body{
     line-height: calc(30/16);
     letter-spacing: 0.06em;
     cursor: pointer;
+    border-radius: 4px;
+    margin-top: 30px;
 }
 .main-button:hover,
 .main-button:focus {
@@ -166,6 +179,24 @@ body{
     color: #FFFFFF;
 }
 /*specifics*/
+
+.specifics{
+
+}
+
+.container-specifics{
+    margin-top: 94px;
+    display: flex;   
+}
+.specifics-list{
+    display: flex;
+}
+.specifics-list-item{
+    width: 270px;
+}
+.specifics-list-item:not(:first-child){
+    margin-left: 30px;
+}
 
 .specifics-title{
     font-weight: 700;
