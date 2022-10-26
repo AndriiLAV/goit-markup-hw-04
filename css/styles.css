@@ -41,7 +41,7 @@ body{
 
 .container {
     display:flex;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin:0 auto;
@@ -139,25 +139,30 @@ body{
 /* main styles */
 .main{
     background-color: #2F303A; 
+    text-align: center;
 }
 
 .main-container{
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* height: 600px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center;  */
+    display: inline-block;
+    /* text-align: center; */
 }
 .main-title{
     width: 696px;
-    height: auto;
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    text-align: center;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    /* text-align: center; */
 }
 /*button*/
 .main-button{
@@ -171,6 +176,7 @@ body{
     cursor: pointer;
     border-radius: 4px;
     margin-top: 30px;
+    margin-bottom: 200px;
 }
 .main-button:hover,
 .main-button:focus {
