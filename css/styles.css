@@ -38,7 +38,6 @@ body{
         max-width: 100%;
         height: auto;
     }
-
 .container {
     display:flex;
     width: 1200px;
@@ -374,6 +373,9 @@ body{
 }
 
 .portfolio-catalog-list-items{
+    border-bottom-width: 1px;
+    border-bottom-style:solid;
+    border-bottom-color: #EEEEEE;
     flex-basis: calc(100%-30*2)/3;
 }
 
