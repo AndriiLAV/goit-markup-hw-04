@@ -190,11 +190,15 @@ body{
 .specifics{
 
 }
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
-.container-specifics{
+/* .container-specifics{
     margin-top: 94px;
     display: flex;   
-}
+} */
 .specifics-list{
     display: flex;
 }
@@ -223,9 +227,7 @@ body{
 /*services*/
 
 .container-services{
-    margin-top: 94px;
     flex-direction: column;
-
 }
 
 .services-list{
@@ -252,9 +254,7 @@ body{
 
 .container-team{
     justify-content: center;
-    /* margin-top: 94px; */
     flex-direction: column;
-    height: 648px;
 }
 
 
@@ -358,7 +358,6 @@ body{
 .portfolio-list{
     display: flex;
     justify-content: center;
-    margin-top: 94px;
 }
 
 .portfolio-list-items:not(:first-child) {
