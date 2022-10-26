@@ -196,7 +196,7 @@ body{
     display: flex;
 }
 .specifics-list-item{
-    width: 270px;
+
 }
 .specifics-list-item:not(:first-child){
     margin-left: 30px;
