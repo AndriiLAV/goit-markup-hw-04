@@ -304,6 +304,8 @@ img{
     }
 .container-footer{
     flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -312,15 +314,13 @@ img{
     font-size: 26px;
     line-height: calc(31/26);
     letter-spacing: 0.03em;
-    margin-top: 60px;
 }
 
 .footer-address{
-
+    margin-top: 20px;
 }
 .footer-address-list{
-    margin-top: 20px;
-    margin-bottom: 60px;
+    
 }
 
 .footer-address-list-item:not(:first-child){
