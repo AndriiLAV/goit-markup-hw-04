@@ -39,7 +39,6 @@ img{
         height: auto;
     }
 .container {
-    display:flex;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -49,14 +48,19 @@ img{
 .header-container {
     display: flex;
     align-items: center;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #ECECEC;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /*header styles*/
 .header {
     display: flex;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ECECEC;
 }
 
 .link {
@@ -142,16 +146,12 @@ img{
 .main{
     background-color: #2F303A; 
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .main-container{
-    /* height: 600px; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center;  */
-    display: inline-block;
-    /* text-align: center; */
+    
 }
 .main-title{
     width: 696px;
@@ -161,10 +161,9 @@ img{
     line-height: calc(60/44);
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-top: 200px;
     margin-right: auto;
     margin-left: auto;
-    /* text-align: center; */
+
 }
 /*button*/
 .main-button{
@@ -178,7 +177,6 @@ img{
     cursor: pointer;
     border-radius: 4px;
     margin-top: 30px;
-    margin-bottom: 200px;
 }
 .main-button:hover,
 .main-button:focus {
@@ -190,15 +188,7 @@ img{
 .specifics{
 
 }
-.section{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
-/* .container-specifics{
-    margin-top: 94px;
-    display: flex;   
-} */
 .specifics-list{
     display: flex;
 }
@@ -259,7 +249,6 @@ img{
 
 
 .team-title{
-    /* margin-top: 94px; */
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
