@@ -177,6 +177,7 @@ img{
     cursor: pointer;
     border-radius: 4px;
     margin-top: 30px;
+    padding: 10px 30px;
 }
 .main-button:hover,
 .main-button:focus {
