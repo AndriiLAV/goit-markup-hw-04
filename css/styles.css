@@ -315,12 +315,12 @@ img{
 
 .footer{
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
     }
 
 .container-footer{
-    flex-direction: column;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    flex-direction: column;   
 }
 
 .footer-logo {
