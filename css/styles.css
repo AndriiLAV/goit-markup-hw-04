@@ -361,6 +361,47 @@ img{
     fill: currentColor;
 }
 
+/* clients section */
+
+.clients {}
+
+.clients-container {
+  
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.clients-items {
+   
+}
+
+.clients-link {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+}
+
+.clients-link:hover,
+.clients-link:focus{
+    border-color: #2196F3;
+    color: #2196F3;
+
+}
+
+.clients-icon {
+    fill: currentColor;
+}
+
 /* footer*/
 
 .footer{
