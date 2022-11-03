@@ -202,6 +202,7 @@ img{
 }
 
 .specifics-list-item{
+    display: block;
     flex: basis 270px; 
     max-width: 270px;
     min-width: 270px;
@@ -209,6 +210,25 @@ img{
 
 .specifics-list-item:not(:first-child){
     margin-left: 30px;
+    /* flex-direction: column;
+    justify-content: center; */
+}
+.specifics-icons{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* padding: 25px 102px; */
+    /* padding-top: 25px; */
+    /* margin-bottom: 25px; */
+}
+
+
+.specifics-icons-box{
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .specifics-title{
