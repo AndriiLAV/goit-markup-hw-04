@@ -333,6 +333,34 @@ img{
     margin-bottom: 30px;
 }
 
+.socials-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socials-item {}
+
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: #AFB1B8;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.socials-link:hover,
+.socials-link:focus {
+    color: #FFFFFF;
+    background-color: #188CE8;
+}
+
+.socials-icon {
+    fill: currentColor;
+}
+
 /* footer*/
 
 .footer{
